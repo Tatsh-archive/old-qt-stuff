@@ -29,3 +29,9 @@ __pycache__/
 .Trashes/
 ehthumbs.db
 Thumbs.db
+
+# Qt
+moc_*.cpp
+filerunner/filerunner
+Makefile
+ui_*.h

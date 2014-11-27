@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow template</string>
+  </property>
+  <widget class="QWidget" name="MainWidget"/>
+  <widget class="QMenuBar" name="MenuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="MenuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="ActionQuit"/>
+   </widget>
+   <addaction name="MenuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="StatusBar"/>
+  <action name="ActionQuit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+   <property name="statusTip">
+    <string comment="Quits the application." extracomment="Quits the application.">Quits the application.</string>
+   </property>
+   <property name="shortcut">
+    <string comment="Shortcut to quit the application." extracomment="Shortcut to quit the application.">Ctrl+Q</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
